@@ -53,7 +53,7 @@
 .img-container:after {
     content: '';
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.6;
     width: 230px;
     height: 230px;
     top: 0;
@@ -75,9 +75,11 @@
 
 .img-container:hover h3 {
     display: block;
+    z-index: 10;
 }
 .img-container:hover p {
     display: block;
+    z-index: 10;
 }
 .img-container:hover:after {
     opacity: 0.1;
@@ -123,52 +125,52 @@
     background-image: url("assets/img/8.jpg");
 }
 .img7{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/9.jpg");
 }
 .img8{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/11.jpg");
 }
 .img9{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/13.jpg");
 }
 .img10{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/14.jpg");
 }
 .img11{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/15.jpg");
 }
 .img12{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/16.jpg");
 }
 .img13{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/17.jpg");
 }
 .img14{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/18.jpg");
 }
 .img15{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/19.jpg");
 }
 .img16{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/20.jpg");
 }
 .img17{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/21.jpg");
 }
 .img18{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/22.jpg");
 }
 .img19{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/23.jpg");
 }
 .img20{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/24.jpg");
 }
 .img21{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/25.jpg");
 }
 .img22{
-    background-image: url("assets/img/5.jpg");
+    background-image: url("assets/img/83.jpg");
 }
 .img23{
     background-image: url("assets/img/img1.jpg");
