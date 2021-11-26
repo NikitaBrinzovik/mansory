@@ -29,6 +29,7 @@
     background-size: cover;
     transition: opacity 2s, transform 0.3s, box-shadow 0.3s;
     z-index: 2;
+    text-decoration: none;
 }
 
 .img-container:nth-child(5n):hover {
@@ -95,7 +96,7 @@
     content: '';
     width: 2px;
     height: 30px;
-    top: 0;
+    top: -5px;
     position: absolute;
     background-color: skyblue;
     left: -10px;
@@ -104,6 +105,11 @@
 .img-container p {
     display: none;
     color: white;
+    font-size: small;
+
+    /*font-weight: 700;*/
+    /*size: 20px;*/
+    /*line-height:30px ;*/
 }
 
 .img-1 {
@@ -112,6 +118,7 @@
 
 .img-2 {
     background-image: url("assets/img/2_3.jpg");
+
 }
 
 .img-3 {
