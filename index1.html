@@ -1,304 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Gallery</title>
     </head>
     <body>
         <style>
-            * {
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
 
-            .gallery {
-                display: grid;
-                grid-template-columns: repeat(5, 20%);
-                grid-template-rows: 230px;
-
-                justify-items: stretch;
-                justify-content: center;
-
-                /*align-content: center;*/
-                /*max-width: 100%;*/
-
-                height: 1150px;
-                width: 1150px;
-                overflow: hidden;
-                margin: 0 auto;
-            }
-
-            .img-container {
-                background: url('assets/img/5.jpg');
-                display: flex;
-                flex-direction: column;
-                box-sizing: border-box;
-                position: relative;
-                width: 230px;
-                height: 230px;
-                background: url('assets/img/5.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                transition: opacity 2s, transform 0.3s, box-shadow 0.3s;
-                z-index: 2;
-            }
-
-            .img-container:nth-child(5n):hover {
-                transform-origin: top right;
-            }
-
-            .img-container:nth-child(21):hover,
-            .img-container:nth-child(22):hover,
-            .img-container:nth-child(23):hover,
-            .img-container:nth-child(24):hover {
-                transform-origin: bottom left;
-            }
-            .img-container:nth-child(25):hover {
-                transform-origin: bottom right;
-            }
-
-            .img-container:after {
-                content: '';
-                background-color: black;
-                opacity: 0.4;
-                width: 230px;
-                height: 230px;
-                top: 0;
-                left: 0;
-                position: absolute;
-            }
-
-            .img-container:hover {
-                transform: scale(2);
-                transform-origin: top left;
-                padding: 20px;
-                justify-content: space-between;
-                box-shadow: 0px 0px 0px 2px #4ca2d9 inset;
-                z-index: 3;
-            }
-            .img-container:hover:after {
-                transition: opacity 0.3s;
-            }
-
-            .img-container:hover h3 {
-                display: block;
-            }
-            .img-container:hover p {
-                display: block;
-            }
-            .img-container:hover:after {
-                opacity: 0.1;
-            }
-
-            .img-container h3 {
-                display: none;
-                color: white;
-                text-transform: uppercase;
-                position: relative;
-            }
-
-            .img-container h3:before {
-                content: '';
-                width: 2px;
-                height: 30px;
-                top: 0;
-                position: absolute;
-                background-color: skyblue;
-                left: -10px;
-            }
-
-            .img-container p {
-                display: none;
-                color: white;
-            }
         </style>
         <div class="container">
             <div class="gallery">
-                <div class="img-container">
-                    <!--            <a href="assets/img/2_3.jpg" class="href"></a>-->
-                    <!-- <img src="assets/img/2_3.jpg" class="images" alt="" /> -->
+                <div class="img-container img1">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img2">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img3">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img4">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img5">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img6">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img7">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img8">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img9">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img10">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img11">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img12">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img13">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img14">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img15">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img16">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img17">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img18">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img19">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img20">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img21">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+                <div class="img-container img22">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+
+                <div class="img-container img23">
                     <h3>Какой-то заголовок</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <!--        <div class="img-container">-->
-                <!--            <img src="assets/img/img3.jpg" class="images" alt="">-->
-                <!--&lt;!&ndash;            <a href="assets/img/img3.jpg" class="href"></a>&ndash;&gt;-->
-                <!--            <div class="inner-text"></div>-->
-                <!--        </div>-->
-                <div class="img-container">
+
+                <div class="img-container img24">
                     <h3>123</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
-                <div class="img-container">
+
+                <div class="img-container img25">
                     <h3>123</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
                         debitis.
                     </p>
                 </div>
+
             </div>
         </div>
     </body>
