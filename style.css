@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.gallery {
+.gallery-mansory {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: 240px;
@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-.img-container {
+.gallery-mansory .img-container {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -30,19 +30,19 @@
     text-decoration: none;
 }
 
-.img-container:nth-child(5n):hover {
+.gallery-mansory .img-container:nth-child(5n):hover {
     transform-origin: top right;
 }
 
-.img-container:nth-last-child(-n+5):hover {
+.gallery-mansory .img-container:nth-last-child(-n+5):hover {
     transform-origin: bottom left;
 }
 
-.img-container:nth-last-child(1):hover {
+.gallery-mansory .img-container:nth-last-child(1):hover {
     transform-origin: bottom right;
 }
 
-.img-container:after {
+.gallery-mansory .img-container:after {
     content: '';
     background-color: black;
     opacity: 0.6;
@@ -53,7 +53,7 @@
     position: absolute;
 }
 
-.img-container:hover {
+.gallery-mansory .img-container:hover {
     transform: scale(2);
     transform-origin: top left;
     padding: 20px;
@@ -62,32 +62,32 @@
     z-index: 3;
 }
 
-.img-container:hover:after {
+.gallery-mansory .img-container:hover:after {
     transition: opacity 0.4s;
 }
 
-.img-container:hover h3 {
+.gallery-mansory .img-container:hover h3 {
     display: block;
     z-index: 10;
 }
 
-.img-container:hover p {
+.gallery-mansory .img-container:hover p {
     display: block;
     z-index: 10;
 }
 
-.img-container:hover:after {
+.gallery-mansory .img-container:hover:after {
     opacity: 0.3;
 }
 
-.img-container h3 {
+.gallery-mansory .img-container h3 {
     display: none;
     color: white;
     text-transform: uppercase;
     position: relative;
 }
 
-.img-container h3:before {
+.gallery-mansory .img-container h3:before {
     content: '';
     width: 2px;
     height: 30px;
@@ -97,110 +97,110 @@
     left: -10px;
 }
 
-.img-container p {
+.gallery-mansory .img-container p {
     display: none;
     color: white;
     mix-blend-mode: luminosity;
     font-size: small;
 }
 
-.img-1 {
+.gallery-mansory .img-1 {
     background-image: url("assets/img/img1.jpg");
 }
 
-.img-2 {
+.gallery-mansory .img-2 {
     background-image: url("assets/img/2_3.jpg");
 }
 
-.img-3 {
+.gallery-mansory .img-3 {
     background-image: url("assets/img/3.jpg");
 }
 
-.img-4 {
+.gallery-mansory .img-4 {
     background-image: url("assets/img/13.jpg");
 }
 
-.img-5 {
+.gallery-mansory .img-5 {
     background-image: url("assets/img/5.jpg");
 }
 
-.img-6 {
+.gallery-mansory .img-6 {
     background-image: url("assets/img/6.jpg");
 }
 
-.img-7 {
+.gallery-mansory .img-7 {
     background-image: url("assets/img/7_2.jpg");
 }
 
-.img-8 {
+.gallery-mansory .img-8 {
     background-image: url("assets/img/8.jpg");
 }
 
-.img-9 {
+.gallery-mansory .img-9 {
     background-image: url("assets/img/9.jpg");
 }
 
-.img-10 {
+.gallery-mansory .img-10 {
     background-image: url("assets/img/sIMG_3574.jpg");
 }
 
-.img-11 {
+.gallery-mansory .img-11 {
     background-image: url("assets/img/11.jpg");
 }
 
-.img-12 {
+.gallery-mansory .img-12 {
     background-image: url("assets/img/83.jpg");
 }
 
-.img-13 {
+.gallery-mansory .img-13 {
     background-image: url("assets/img/IMG_0796.jpg");
 }
 
-.img-14 {
+.gallery-mansory .img-14 {
     background-image: url("assets/img/14.jpg");
 }
 
-.img-15 {
+.gallery-mansory .img-15 {
     background-image: url("assets/img/15.jpg");
 }
 
-.img-16 {
+.gallery-mansory .img-16 {
     background-image: url("assets/img/16.jpg");
 }
 
-.img-17 {
+.gallery-mansory .img-17 {
     background-image: url("assets/img/17.jpg");
 }
 
-.img-18 {
+.gallery-mansory .img-18 {
     background-image: url("assets/img/18.jpg");
 }
 
-.img-19 {
+.gallery-mansory .img-19 {
     background-image: url("assets/img/19.jpg");
 }
 
-.img-20 {
+.gallery-mansory .img-20 {
     background-image: url("assets/img/20.jpg");
 }
 
-.img-21 {
+.gallery-mansory .img-21 {
     background-image: url("assets/img/21.jpg");
 }
 
-.img-22 {
+.gallery-mansory .img-22 {
     background-image: url("assets/img/22.jpg");
 }
 
-.img-23 {
+.gallery-mansory .img-23 {
     background-image: url("assets/img/23.jpg");
 }
 
-.img-24 {
+.gallery-mansory .img-24 {
     background-image: url("assets/img/24.jpg");
 }
 
-.img-25 {
+.gallery-mansory .img-25 {
     background-image: url("assets/img/25.jpg");
 }
 
