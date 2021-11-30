@@ -28,6 +28,23 @@
     transition: opacity 2s, transform 0.3s, box-shadow 0.3s;
     z-index: 2;
     text-decoration: none;
+    justify-content: space-between;
+}
+
+.gallery-mansory .img-container h3 {
+    display: none;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 15px;
+}
+
+.gallery-mansory .img-container p {
+    display: none;
+    color: white;
+    mix-blend-mode: luminosity;
+    font-size: small;
+    margin: 0;
 }
 
 .gallery-mansory .img-container:nth-child(5n):hover {
@@ -69,40 +86,33 @@
 .gallery-mansory .img-container:hover h3 {
     display: block;
     z-index: 10;
+    margin-top: 0;
 }
 
 .gallery-mansory .img-container:hover p {
     display: block;
     z-index: 10;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 11px;
+    width: 170px;
 }
 
 .gallery-mansory .img-container:hover:after {
     opacity: 0.3;
 }
 
-.gallery-mansory .img-container h3 {
-    display: none;
-    color: white;
-    text-transform: uppercase;
-    position: relative;
-}
 
 .gallery-mansory .img-container h3:before {
     content: '';
     width: 2px;
-    height: 30px;
-    top: -5px;
+    height: 40px;
+    top: -10px;
     position: absolute;
     background-color: skyblue;
-    left: -10px;
+    left: 1px;
 }
 
-.gallery-mansory .img-container p {
-    display: none;
-    color: white;
-    mix-blend-mode: luminosity;
-    font-size: small;
-}
 
 .gallery-mansory .img-1 {
     background-image: url("http://www.omz.ru/upload/iblock/875/8750f6f4d378eb0d013d30788c742291.jpg");
@@ -195,7 +205,7 @@
 }
 
 .gallery-mansory .img-22 {
-    background-image: url("http://www.omz.ru/upload/iblock/6b0/6b0c4df3aad2b6dbd4e7b06b2d5f8106.jpg");
+    background-image: url("http://www.omz.ru/upload/iblock/a16/a1628ed28a66e329004349d5bb281af4.jpg");
     background-position-x: -60px;
 }
 
